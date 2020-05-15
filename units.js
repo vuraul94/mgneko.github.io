@@ -167,7 +167,7 @@
 		canvas.height = CategoryLen * (CELL_SIZE + row_padding) + marginTop+20;
 
 		context = canvas.getContext('2d');
-		context.font = "20px Arial";
+		context.font = "15px Arial";
 		context.textBaseline = 'top';
 		
 		context.fillStyle = bgcolor;
@@ -228,7 +228,7 @@
 	}
 
 	function fillCaculate(){
-		context.font = "12px Arial";
+		context.font = "15px Arial";
 		var have = 0;
 		var haveFull = 0;
 		var like = 0;
@@ -293,7 +293,7 @@
 		marginLeft - caculateField-7,
 		marginTop + 7 * (CELL_SIZE + row_padding) + 40);
 
-		context.font = "20px Arial";
+		context.font = "15px Arial";
 	}
 
 	function fillRect(x, y, color){
@@ -325,7 +325,7 @@
 		var totalNP = 0;
 		var total = 0;
 		context.fillStyle = bgcolor;
-		context.fillRect(canvas.width - 200, canvas.height - 110, 200, 80)
+		context.fillRect(canvas.width - 285, canvas.height - 110, 200, 80)
 
 		for (i = 0; i < CategoryLen; i++) {
 			for (j = 0; j < CategoryNUM[i]; j++) {

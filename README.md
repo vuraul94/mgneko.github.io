@@ -1,4 +1,7 @@
 # mgneko.github.io
-可製作FGO台服所持5星英靈一覽表並產生為圖片
 
-左鍵增加，右鍵減少寶具等級，選擇完成後可點選產出圖片於新視窗產生
+A list of 5 star servants held by FGO NA server, can be made and generated as a picture
+
+Use the left button to increase, the right button to decrease the NP level, after the selection is complete, click the output picture to generate in a new window
+
+This is a edited version for NA server, all the credits to https://github.com/mgneko

@@ -39,10 +39,10 @@
 		"jp": [12, 11, 9, 12, 11, 9, 10, 5, 4, 5, 3, 2]
 	};
 
-	//右鍵選單取消,綁定功能
+	// Right-click menu to cancel, bind function
 	document.oncontextmenu = function(){return false};
 
-	//角色物件
+	//  Character object
 	var Unit = function(imageUrl){
 		var self = this;
 		this.imageUrl = imageUrl;
@@ -56,14 +56,14 @@
 	var categoryImages = new Array(CategoryLen);
 	var markImages = new Array(Marks.length);
 
-	//設定標誌
+	// Set flag
 
 	for(var i = 0 ; i < Marks.length ; ++ i){
 		markImages[i] = new Image();
 		markImages[i].src = "images-mini/mark/" + Marks[i] + ".png";
 	}
 
-	//設定職階圖
+	// Set up a heroic figure
 
 	for(var i = 0 ; i < CategoryLen ; ++ i){
 		categoryImages[i] = new Image();
@@ -72,7 +72,7 @@
 
 	var units = [];
 
-	//設定英靈圖
+	// Set up a heroic figure
 	for (i = 0; i < CategoryLen; i++) {
 		units[i] = [];
 		for (j = 0; j < AllCategoryNUM["jp"][i]; j++) {
@@ -83,7 +83,7 @@
 	function init(state = 0){
 		CategoryNUM = Array.from(AllCategoryNUM[country]);
 
-		//設定英靈圖
+		// Set up a heroic figure
 		if(state != 2){
 			for (i = 0; i < CategoryLen; i++) {
 				units[i] = [];

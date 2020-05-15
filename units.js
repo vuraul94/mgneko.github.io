@@ -200,7 +200,8 @@
 
 		context.font = "15px Arial";
 		context.fillStyle = mask;
-		context.fillText("This image was made by mgneko.github.io (NA Version)", 105 + marginLeft, canvas.height - 30);
+		context.fillText("This image was made by mgneko.github.io (NA Version)", 105 + marginLeft, canvas.height - 32);
+		context.fillText("This image was made by mgneko.github.io (NA Version)", 105 + marginLeft, canvas.height - 15);
 	}
 
 	function drawImage(x, y, image){
@@ -284,7 +285,7 @@
 		marginTop + 7 * (CELL_SIZE + row_padding));
 
 		percent = (haveFull / ex * 100);
-		context.fillText("extra: " + percent.toFixed(2) + "%",
+		context.fillText("NP6: " + percent.toFixed(2) + "%",
 		marginLeft - caculateField-7,
 		marginTop + 7 * (CELL_SIZE + row_padding) + 20);
 
@@ -330,7 +331,7 @@
 		for (i = 0; i < CategoryLen; i++) {
 			for (j = 0; j < CategoryNUM[i]; j++) {
 				totalNP += units[i][j].npLv;
-				if(units[i][j].npLv){
+				if(units[i][j].npLv){	
 					totalHave += 1;
 				}
 			}

@@ -202,7 +202,7 @@ function init(state = 0) {
 	context.font = "15px Arial";
 	context.fillStyle = mask;
 	context.fillText("This image was made by mgneko.github.io (NA Version)", 105 + marginLeft, canvas.height - 32);
-	context.fillText("https://fgo-na-ssr-servlist.000webhostapp.com/", 105 + marginLeft, canvas.height - 15);
+	context.fillText("https://splendid-sunflower-04d3ad.netlify.app", 105 + marginLeft, canvas.height - 15);
 }
 
 function drawImage(x, y, image) {

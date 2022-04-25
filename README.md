@@ -6,4 +6,4 @@ Use the left button to increase, the right button to decrease the NP level, afte
 
 This is a edited version for NA server, all the credits to https://github.com/mgneko
 
-Can access the app here https://62662743edbd573337ea0fe7--splendid-sunflower-04d3ad.netlify.app
+Can access the app here https://splendid-sunflower-04d3ad.netlify.app/

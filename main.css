@@ -55,6 +55,7 @@ body{
 	color: #fff;
 	letter-spacing: 1px;
 	display: inline-block;
+	border: none;
 }
 
 .btn--primary {
